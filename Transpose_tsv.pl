@@ -12,11 +12,12 @@ for my $index(0..$all_count){
 		print OUT $temp2[$index]."\t";
 	}
 	print OUT "\n";
+	undef @all_data;
 }
 close FILE;
 close OUT;
 undef @temp1;
 undef @temp2;
-undef @all_data;
+
 
 
